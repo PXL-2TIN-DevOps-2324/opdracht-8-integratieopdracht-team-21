@@ -39,6 +39,8 @@ Het rapport willen we graag archiveren als artifact van de build poging. Voorzie
 
 Feedback is belangrijk. Het is mogelijk om een badge toe te voegen aan de `README.MD` die de status van de laatste build poging weergeeft. Voorzie dit a.d.h.v. [deze documentatie](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge).
 
+![Status badge](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/actions/workflows/CI_Workflow.yml/badge.svg)
+
 # Integratie pull requests
 Zorg ervoor dat de CI workflow ook uitgevoerd wordt bij het maken van een pull request. 
 Test dit uit door nieuwe feature uit te werken aan de hand van de Github flow. Je werkt de feature uit om machtsberekeningen te maken. Maak na het afwerken van de feature een Pull request aan voor de merge. Controleer of de workflow ook effectief uitgevoerd wordt. 
