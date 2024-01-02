@@ -1,0 +1,11 @@
+name: Team21-OpsDev-CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repository binnentrekken
+      uses: actions/checkout@v4
