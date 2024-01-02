@@ -20,3 +20,10 @@ jobs:
       
     - name: Unit test runnen
       run: npm test
+      
+    - name: Archive as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: jest-test-results
+        path: junit.xml
+
