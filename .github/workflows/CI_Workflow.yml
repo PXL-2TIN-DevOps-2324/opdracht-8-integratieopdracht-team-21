@@ -25,5 +25,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: jest-test-results
-        path: junit.txt
+        path: junit.xml
 
