@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zwcHYKra)
 # Integratieopdracht DevOps
-`voorzie badge hier (zie opgave)`
+![Status badge](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/actions/workflows/CI_Workflow.yml/badge.svg)
 
 ## Inleiding
 Het bedrijf OpsDev heeft met argusogen de lessen Devops op 2TIN meegevolgd en is zelf aan de slag gegaan aan een eigen versie van de calculator app die we gebruikt hebben tijdens de lessen. Je zou kunnen stellen dat er enkele gelijkenissen zijn tussen de app gebruikt tijdens de les en die van het bedrijf. Naast het ‘op een correcte manier kopiëren van applicaties’ is het bedrijf OpsDev ook vies van Jenkins en (lokaal gehoste) virtuele machines.
@@ -38,8 +38,6 @@ Hierna willen we graag de unittesten van de applicatie runnen. hiervoor hebben w
 Het rapport willen we graag archiveren als artifact van de build poging. Voorzie een stap die dit doet. Informatie hierover kan je [hier](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts) terugvinden.
 
 Feedback is belangrijk. Het is mogelijk om een badge toe te voegen aan de `README.MD` die de status van de laatste build poging weergeeft. Voorzie dit a.d.h.v. [deze documentatie](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge).
-
-![Status badge](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/actions/workflows/CI_Workflow.yml/badge.svg)
 
 # Integratie pull requests
 Zorg ervoor dat de CI workflow ook uitgevoerd wordt bij het maken van een pull request. 
