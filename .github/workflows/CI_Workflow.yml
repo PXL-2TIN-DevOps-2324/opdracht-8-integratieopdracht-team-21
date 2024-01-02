@@ -9,3 +9,8 @@ jobs:
     steps:
     - name: Repository binnentrekken
       uses: actions/checkout@v4
+      
+    - name: Setup Node.js envionment
+      uses: actions/setup-node@v4.0.1
+      with:
+        node-version: '20.x'
