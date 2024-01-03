@@ -24,5 +24,5 @@ jobs:
               uses: Ilshidur/action-discord@v2
               with:
                 type: text
-                content: "Deployment successful! Opdracht 8 discord webhook werkt"
+                content: "Deployment successful! Opdracht 8 discord webhook werkt."
                 token: ${{ secrets.https://discord.com/api/webhooks/1192225121360957450/4VM2W3X0dkGVMz2vCvj7olsFC1o_byvCl8aDwoaIj83Bq0LcYVXuNY2XaFq5XiVVstDl }}
