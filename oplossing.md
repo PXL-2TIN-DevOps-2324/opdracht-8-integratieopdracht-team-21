@@ -16,3 +16,8 @@ Leden:
 - Wout
 - stef
 ```
+
+## c)
+
+DockerHub is een open source containerregister gemaakt om container images te vinden, te gebruiken en te delen. Met DockerHub kunnen ontwikkelaars openbare repositories hosten die gratis kunnen worden gebruikt of prive repositories voor teams en bedrijven.
+Link naar mijn DockerHub repository: https://hub.docker.com/r/dietmardamiaens/opsdev-calculator
