@@ -32,5 +32,12 @@ router.get('/divide/:num1/:num2', function (req, res) {
   res.json(result)
 })
 
+router.get('/power/:num1/:num2', function (req, res) {
+  let num1 = parseInt(req.params.num1);
+  let num2 = parseInt(req.params.num2);
+  let result = Math.pow(num1, num2).toString();
+  res.json(result);
+});
+
 
 module.exports = router
