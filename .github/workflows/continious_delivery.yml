@@ -7,7 +7,7 @@ on:
         required: false
 
 jobs:
-  Continious delivery:
+  Continious_delivery:
     runs-on: ubuntu-latest
 
     steps:
