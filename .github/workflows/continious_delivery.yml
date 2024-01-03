@@ -22,7 +22,10 @@ jobs:
               with:
                         push: true
                         tags: dietmardamiaens/opsdev-calculator:latest
+                        
             - name: Disocrd notifications
+              env:
+                        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
               uses: Ilshidur/action-discord@master
               with: 
                           args: "Opdracht 8 discord webhook werkt"
