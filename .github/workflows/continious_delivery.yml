@@ -21,7 +21,7 @@ jobs:
               uses: docker/build-push-action@v5.1.0
 
             - name: Notify Discord
-              uses: Ilshidur/action-discord@v2
+              uses: Ilshidur/action-discord@v1
               with:
                 type: text
                 content: "Deployment successful! Opdracht 8 discord webhook werkt."
