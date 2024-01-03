@@ -32,4 +32,3 @@ jobs:
       with:
         name: jest-test-results
         path: junit.xml
-
