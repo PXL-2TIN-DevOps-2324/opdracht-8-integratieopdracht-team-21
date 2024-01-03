@@ -13,8 +13,14 @@ jobs:
     steps:
             - name: Docker Login
               uses: docker/login-action@v3.0.0
+              with:
+                      username: ${{ secrets.dietmardamiaens }}
+                      password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
 
-            
             - name: Build and push Docker images
               uses: docker/build-push-action@v5.1.0
-            
+
+            - name: Notify Discord
+              uses: 
+              with:
+                      webhook-url: ${{ secrets.https://discord.com/api/webhooks/1192225121360957450/4VM2W3X0dkGVMz2vCvj7olsFC1o_byvCl8aDwoaIj83Bq0LcYVXuNY2XaFq5XiVVstDl }}
