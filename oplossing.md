@@ -20,4 +20,7 @@ Leden:
 ## c)
 
 DockerHub is een open source containerregister gemaakt om container images te vinden, te gebruiken en te delen. Met DockerHub kunnen ontwikkelaars openbare repositories hosten die gratis kunnen worden gebruikt of prive repositories voor teams en bedrijven.
+
 Link naar mijn DockerHub repository: https://hub.docker.com/r/dietmardamiaens/opsdev-calculator
+
+We gebruiken secrets zodat mensen die in de repository kunnen kijken niet zomaar kunnen inloggen op onze dockerhub en zodat ze niet onze webhook kunnen gebruiken in andere repositories. We kunnen het ook doen zonder secrets maar dan moeten we onze gebruikersnaam en acces token van dockerhub uittypen in de yml file.
