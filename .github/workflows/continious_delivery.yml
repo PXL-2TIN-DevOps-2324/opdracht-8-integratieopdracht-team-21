@@ -23,7 +23,7 @@ jobs:
                         push: true
                         tags: dietmardamiaens/opsdev-calculator:latest
                         
-            - name: Disocrd notifications
+            - name: Discord notifications
               env:
                         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
               uses: Ilshidur/action-discord@master
