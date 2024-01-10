@@ -15,11 +15,11 @@ jobs:
     - name: Set up Azure CLI
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 
     - name: Login to Docker Hub
       run: |
-        docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+        docker login -u ${{ secrets.DOCKERHUB_NAME }} -p ${{ secrets.DOCKERHUB_ACCESTOKEN }}
         
     - name: Build and push Docker image
       run: |
