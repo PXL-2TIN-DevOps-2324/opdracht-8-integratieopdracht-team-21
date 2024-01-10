@@ -1,4 +1,4 @@
-name: Build and deploy a container to an Azure Web App
+name: Team21-OpsDev-azureDeploy
 
 env:
   AZURE_WEBAPP_NAME: MY_WEBAPP_NAME  
@@ -26,8 +26,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ secrets.DOCKER_NAME }}
+          password: ${{ secrets.DOCKER_ACCESTOKEN }}
 
       - name: Lowercase the repo name
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
