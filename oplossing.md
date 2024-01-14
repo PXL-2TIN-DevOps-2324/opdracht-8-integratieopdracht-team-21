@@ -1,42 +1,55 @@
-## a) 
-Github Actions wordt gebruikt om automatisatie te implementeren voor deployment-processen en continue integratie. Je kan hierdoor code bouwen en testen bij elke commit die plaatsvindt.
-Het is ook mogelijk om wijzigingen automatisch toe te passen naar staging alsook naar de productieomgeving. Door gebruik te maken van deze tool kunnen developers dankzij de geautomatiseerde workflow hun meer concentreren op het schrijven van hun code, terwijl de routine taken worden uitgevoerd.
+# Integratieopdracht DevOps Oplossing
 
-Docker zorgt ervoor dat het makkelijker wordt om applicaties op verschillende plekken te laten draaien. Dit wordt gedaan door de applicaties in containers te steken. Deze container bestaat uit de benodigde software om de applicatie te kunnen runnen.
-Docker zorgt er ook voor dat elke applicatie geïsoleerd is van elkaar, zodat ze niet met elkaar in de war komen. Ook kun je met Docker makkelijk bepalen hoe groot of klein je app moet zijn, afhankelijk van wat je precies nodig hebt.
+## a) 
+
+**GitHub Actions and Docker Integration:**
+
+GitHub Actions is utilized for implementing automation in deployment processes and continuous integration. This enables building and testing code with each commit. It also allows for automatic application of changes to both staging and production environments. By utilizing this tool, developers can focus more on writing code, while routine tasks are automated.
+
+Docker simplifies the deployment of applications across various environments by encapsulating them in containers. These containers consist of the necessary software to run the application. Docker ensures isolation between applications, preventing interference. It also allows flexibility in determining the size of the app based on specific requirements.
 
 ## b)
-YAML is een taal waarmee mensen gemakkelijk leesbare gegevens kunnen opslaan en structureren. Het wordt vaak gebruikt voor het maken van configuratiebestanden, waarin instellingen en parameters op een begrijpelijke manier kunnen worden vastgelegd. De syntax/structuur van YAML files is heel simpel, zo kan je een lijst maken met vierkante haakjes [] en kan je waardes geven aan je "sleutels" door gemakkelijk een ':' te gebruiken. Je hoeft geen gebruik te maken van " of ;. Bijvoorbeeld: 
 
-```
+**YAML Overview:**
+
+YAML is a language for easily storing and structuring human-readable data. It is commonly used for creating configuration files where settings and parameters can be defined in an understandable manner. The syntax of YAML files is simple, allowing the creation of lists with square brackets [] and assigning values to keys using a colon ':' without the need for quotes or semicolons. For example:
+
+```yaml
 Groepsnaam: Team21
 Leden:
 - Cédric
 - Dietmar
 - Wout
-- stef
+- Stef
 ```
 
 ## c)
 
-DockerHub is een open source containerregister gemaakt om container images te vinden, te gebruiken en te delen. Met DockerHub kunnen ontwikkelaars openbare repositories hosten die gratis kunnen worden gebruikt of prive repositories voor teams en bedrijven.
+**DockerHub:**
 
-Link naar mijn DockerHub repository: https://hub.docker.com/r/dietmardamiaens/opsdev-calculator
+DockerHub is an open-source container registry designed for finding, using, and sharing container images. Developers can host public repositories for free use or private repositories for team and company collaboration.
+
+Link to my DockerHub repository: [dietmardamiaens/opsdev-calculator](https://hub.docker.com/r/dietmardamiaens/opsdev-calculator)
 
 ## d)
-We gebruiken secrets zodat mensen die in de repository kunnen kijken niet zomaar kunnen inloggen op onze dockerhub en zodat ze niet onze webhook kunnen gebruiken in andere repositories. We kunnen het ook doen zonder secrets maar dan moeten we onze gebruikersnaam en acces token van dockerhub uittypen in de yml file. We kunnen tenslote ook nog gebruik maken van een repository variable maar iedereen die in de repository kan kan deze zien dus dit is ook niet veilig voor inlog gegevens of gegevens die we geheim willen houden.
+
+**GitHub Actions Secrets:**
+
+Secrets are used to secure sensitive information in the repository, preventing unauthorized access to DockerHub and the misuse of webhooks in other repositories. It ensures a more secure way of handling credentials, avoiding the exposure of usernames and access tokens directly in the YAML file.
 
 ## e)
-Azure is een cloudcomputingplatform van Microsoft. Hierop kan je via internetverbinding verschillende tools deployen, zoals onder andere servers, VM's, databases,.... De grootste concurrenten van Azure zijn AWS (Amazon Web Services) en Google. IaaS kan je vergelijken met het huren van computerservers, PaaS is als het huren van een platform om apps te maken, en SaaS is als het gebruiken van kant-en-klare software online. Het idee is dat je alleen betaalt voor wat je gebruikt, zonder zelf fysieke computers te hoeven bezitten.
+
+**Azure Cloud Computing Platform:**
+
+Azure is a cloud computing platform by Microsoft, providing various tools for deploying resources such as servers, VMs, and databases over the internet. It competes with AWS (Amazon Web Services) and Google Cloud. Azure offers **I**nfrastructure **a**s **a** **S**ervice (**IaaS**), **P**latform **a**s **a** **S**ervice (**PaaS**), and **S**oftware **a**s **a** **S**ervice (**SaaS**). Users pay for the resources they use without the need to own physical hardware.
 
 ## f)
-Publieke URL van de applicatie:
 
-2tin-team21.azurewebsites.net
+**Azure Application Deployment:**
 
-Screenshot van App Service:
+**Public URL of the Application:**
+[2tin-team21.azurewebsites.net](https://2tin-team21.azurewebsites.net)
 
-![image](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/57450200/d59eef27-0a1c-4602-86c2-6c3f60417cb0)
-
-
-![image](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/57450200/6047b425-7890-4c29-987a-82458000d087)
+**App Service Screenshots:**
+![296619635-d59eef27-0a1c-4602-86c2-6c3f60417cb0](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/116647220/bde8824d-9103-418b-9024-256c2f2ba132)
+![296619614-6047b425-7890-4c29-987a-82458000d087](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/116647220/5c688a63-bf11-45d9-a5e0-2513f5cf67c8)
