@@ -27,5 +27,6 @@ Link naar mijn DockerHub repository: https://hub.docker.com/r/dietmardamiaens/op
 We gebruiken secrets zodat mensen die in de repository kunnen kijken niet zomaar kunnen inloggen op onze dockerhub en zodat ze niet onze webhook kunnen gebruiken in andere repositories. We kunnen het ook doen zonder secrets maar dan moeten we onze gebruikersnaam en acces token van dockerhub uittypen in de yml file. We kunnen tenslote ook nog gebruik maken van een repository variable maar iedereen die in de repository kan kan deze zien dus dit is ook niet veilig voor inlog gegevens of gegevens die we geheim willen houden.
 
 ## e)
+Azure is een cloudcomputingplatform van Microsoft. Hierop kan je via internetverbinding verschillende tools deployen, zoals onder andere servers, VM's, databases,.... De grootste concurrenten van Azure zijn AWS (Amazon Web Services) en Google. IaaS kan je vergelijken met het huren van computerservers, PaaS is als het huren van een platform om apps te maken, en SaaS is als het gebruiken van kant-en-klare software online. Het idee is dat je alleen betaalt voor wat je gebruikt, zonder zelf fysieke computers te hoeven bezitten.
 
 ## f)
