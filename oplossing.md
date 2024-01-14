@@ -30,3 +30,13 @@ We gebruiken secrets zodat mensen die in de repository kunnen kijken niet zomaar
 Azure is een cloudcomputingplatform van Microsoft. Hierop kan je via internetverbinding verschillende tools deployen, zoals onder andere servers, VM's, databases,.... De grootste concurrenten van Azure zijn AWS (Amazon Web Services) en Google. IaaS kan je vergelijken met het huren van computerservers, PaaS is als het huren van een platform om apps te maken, en SaaS is als het gebruiken van kant-en-klare software online. Het idee is dat je alleen betaalt voor wat je gebruikt, zonder zelf fysieke computers te hoeven bezitten.
 
 ## f)
+Publieke URL van de applicatie:
+
+2tin-team21.azurewebsites.net
+
+Screenshot van App Service:
+
+![image](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/57450200/d59eef27-0a1c-4602-86c2-6c3f60417cb0)
+
+
+![image](https://github.com/PXL-2TIN-DevOps-2324/opdracht-8-integratieopdracht-team-21/assets/57450200/6047b425-7890-4c29-987a-82458000d087)
