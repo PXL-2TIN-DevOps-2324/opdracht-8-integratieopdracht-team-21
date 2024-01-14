@@ -1,0 +1,32 @@
+name: Team21-OpsDev-CD
+            
+on:
+  workflow_dispatch:
+    inputs:
+      manual_trigger:
+        required: false
+
+jobs:
+  Continious_delivery:
+    runs-on: ubuntu-latest
+
+    steps:
+            - name: Docker Login
+              uses: docker/login-action@v3.0.0
+              with:
+                      username: ${{ secrets.DOCKERHUB_NAME }}
+                      password: ${{ secrets.DOCKERHUB_ACCESTOKEN }}
+
+            - name: Build and push Docker images
+              uses: docker/build-push-action@v5.1.0
+              with:
+                        push: true
+                        tags: dietmardamiaens/opsdev-calculator:latest
+                        
+            - name: Discord notifications
+              env:
+                        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+              uses: Ilshidur/action-discord@master
+              with: 
+                          args: "Opdracht 8 discord webhook werkt"
+

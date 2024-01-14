@@ -1,0 +1,34 @@
+name: Team21-OpsDev-CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repository binnentrekken
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js envionment
+      uses: actions/setup-node@v4.0.1
+      with:
+        node-version: '20.x'
+        
+    - name: Dependencies Installeren
+      run: npm install
+      
+    - name: Unit test runnen
+      run: npm test
+      
+    - name: Archive as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: jest-test-results
+        path: junit.xml
