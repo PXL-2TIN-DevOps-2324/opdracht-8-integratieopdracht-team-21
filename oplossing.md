@@ -23,4 +23,9 @@ DockerHub is een open source containerregister gemaakt om container images te vi
 
 Link naar mijn DockerHub repository: https://hub.docker.com/r/dietmardamiaens/opsdev-calculator
 
+## d)
 We gebruiken secrets zodat mensen die in de repository kunnen kijken niet zomaar kunnen inloggen op onze dockerhub en zodat ze niet onze webhook kunnen gebruiken in andere repositories. We kunnen het ook doen zonder secrets maar dan moeten we onze gebruikersnaam en acces token van dockerhub uittypen in de yml file. We kunnen tenslote ook nog gebruik maken van een repository variable maar iedereen die in de repository kan kan deze zien dus dit is ook niet veilig voor inlog gegevens of gegevens die we geheim willen houden.
+
+## e)
+
+## f)
